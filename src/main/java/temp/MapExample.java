@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class MapExample {
 
-	class InputTuple implements Tuple {
+	class InputTuple extends BaseTuple {
 		public long a;
 		public double b;
 		public int c;
@@ -23,7 +23,7 @@ public class MapExample {
 
 	};
 
-	class OutputTuple implements Tuple {
+	class OutputTuple extends BaseTuple {
 		public long d;
 
 		public OutputTuple(long d) {

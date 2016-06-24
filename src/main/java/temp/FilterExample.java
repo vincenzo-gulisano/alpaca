@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class FilterExample {
 
-	class InputTuple implements Tuple {
+	class InputTuple extends BaseTuple {
 		public long a;
 		public double b;
 		public int c;
